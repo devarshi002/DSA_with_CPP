@@ -10,5 +10,6 @@ int main() {
     cout << marks[3] << endl;
     cout << marks[4] << endl;
 
+
     return 0;
 }
