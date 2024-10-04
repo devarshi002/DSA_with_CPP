@@ -30,4 +30,5 @@ int main() {
     cout << "The element " << target << " appears " << result << " times in the array." << endl;
 
     return 0;
+    
 }
