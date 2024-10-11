@@ -12,5 +12,8 @@ int main() {
     for(int i : vec) {
         cout << i << endl;
     }
+
+    vec.front();     // access first ele
+    vec.back();      // access last ele
     return 0;
 }
