@@ -15,5 +15,6 @@ int main() {
 
     vec.front();     // access first ele
     vec.back();      // access last ele
+    vec.at(0);       // access at perticular position
     return 0;
 }
