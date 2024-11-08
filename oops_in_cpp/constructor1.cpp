@@ -20,7 +20,7 @@ class Example {
 
 int main() {
     Example ex1;
-    Example ex2(10);
+    Example ex2(30);
 
     return 0;
 };
