@@ -6,14 +6,18 @@ class Person {
       string name;
       int age;
 
-      person() {
-
+      Person() {
+        cout << "parent constructor" << endl;
       }
 };
 
 class Student : public Person {
     public:
        int rollno;
+
+       Student() {
+        cout << "Child constructor" << endl;
+       }
 
        void getInfo() {
         cout << "Name: " << name << endl;
