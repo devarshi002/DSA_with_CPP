@@ -31,4 +31,5 @@ int main() {
     cout << s1.rollno << endl;
     cout << s1.researchArea << endl;
     return 0;
+    
 };
